@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RepairDB Educational Repair Example",
+  "description": "Illustrative first-check examples; not model-specific verified fault claims or quotes.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "brand", "model", "title", "symptom", "likely_components", "safe_diagnostic_steps", "tools", "difficulty", "estimated_cost_usd_parts_only", "safety_notes", "educational_example", "disclaimer"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "brand": {"enum": ["Samsung", "Xiaomi", "Infinix", "Tecno", "Oppo", "Vivo", "iPhone"]},
+    "model": {"type": "string", "minLength": 2},
+    "title": {"type": "string", "minLength": 5},
+    "symptom": {"enum": ["no charging", "no display", "network issue", "boot loop", "no sound", "overheating", "battery drain"]},
+    "likely_components": {"type": "array", "items": {"type": "string", "minLength": 2}, "minItems": 1},
+    "safe_diagnostic_steps": {"type": "array", "items": {"type": "string", "minLength": 8}, "minItems": 2},
+    "tools": {"type": "array", "items": {"type": "string", "minLength": 2}, "minItems": 1},
+    "difficulty": {"enum": ["beginner", "intermediate", "advanced"]},
+    "estimated_cost_usd_parts_only": {"type": "object", "additionalProperties": false, "required": ["min", "max"], "properties": {"min": {"type": "number", "minimum": 0}, "max": {"type": "number", "minimum": 0}}},
+    "safety_notes": {"type": "string", "minLength": 10},
+    "educational_example": {"const": true},
+    "disclaimer": {"type": "string", "minLength": 20}
+  }
+}
