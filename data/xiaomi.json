@@ -1,0 +1,190 @@
+[
+  {
+    "id": "xiaomi-01",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13",
+    "title": "No Display — safe first checks",
+    "symptom": "no display",
+    "likely_components": [
+      "OLED display assembly",
+      "display connector",
+      "software display settings"
+    ],
+    "safe_diagnostic_steps": [
+      "Charge with a known-good accessory for 30 minutes, then try a normal restart.",
+      "Check brightness, accessibility, and display settings if the device responds to touch or audio.",
+      "Call the phone or connect it to a trusted computer to distinguish a display symptom from a full power failure.",
+      "Look for cracks, liquid exposure, or swelling without pressing on the screen."
+    ],
+    "tools": [
+      "known-good charger",
+      "trusted computer (optional)",
+      "flashlight"
+    ],
+    "difficulty": "beginner",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 180
+    },
+    "safety_notes": "Do not press on cracked glass or open the device. Suspected liquid damage needs professional assessment. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "xiaomi-02",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro+",
+    "title": "Network Issue — safe first checks",
+    "symptom": "network issue",
+    "likely_components": [
+      "SIM card",
+      "SIM tray",
+      "antenna path",
+      "carrier or network settings"
+    ],
+    "safe_diagnostic_steps": [
+      "Check for a carrier outage and confirm the account has service.",
+      "Toggle airplane mode once, then restart the device.",
+      "Reseat the SIM only with the device powered off and use the correct eject tool gently.",
+      "Test the SIM in another compatible phone, or another known-good SIM in this phone."
+    ],
+    "tools": [
+      "known-good compatible SIM",
+      "SIM eject tool",
+      "carrier coverage map"
+    ],
+    "difficulty": "intermediate",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 35
+    },
+    "safety_notes": "Do not bypass carrier locks, alter IMEI/baseband data, or install unofficial radio firmware. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "xiaomi-03",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14",
+    "title": "Boot Loop — safe first checks",
+    "symptom": "boot loop",
+    "likely_components": [
+      "software update state",
+      "storage",
+      "battery",
+      "power button"
+    ],
+    "safe_diagnostic_steps": [
+      "Disconnect accessories and use the documented normal restart for the device family.",
+      "Charge using a known-good accessory and allow a short cooling period if warm.",
+      "If available, use the manufacturer's documented recovery/update process without unlocking or wiping first.",
+      "Back up data if the device becomes stable; seek service before factory reset if data matters."
+    ],
+    "tools": [
+      "known-good charger",
+      "manufacturer support page",
+      "USB cable (optional)"
+    ],
+    "difficulty": "intermediate",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 120
+    },
+    "safety_notes": "Avoid bootloader unlocks, factory resets, and unofficial firmware when preserving data is important. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "xiaomi-04",
+    "brand": "Xiaomi",
+    "model": "POCO X6",
+    "title": "No Sound — safe first checks",
+    "symptom": "no sound",
+    "likely_components": [
+      "speaker grille",
+      "speaker module",
+      "audio settings",
+      "Bluetooth route"
+    ],
+    "safe_diagnostic_steps": [
+      "Check ringer, media volume, mute, Do Not Disturb, and the selected audio output.",
+      "Disconnect Bluetooth devices and test with a locally stored audio clip.",
+      "Inspect speaker openings for loose debris; use a soft dry brush only, with no liquid or sharp tools.",
+      "Restart and retest a call and media playback separately."
+    ],
+    "tools": [
+      "soft dry brush",
+      "known-good wired/Bluetooth audio output"
+    ],
+    "difficulty": "beginner",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 90
+    },
+    "safety_notes": "Do not insert pins or liquid into openings; stop if the device has signs of liquid damage. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "xiaomi-05",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 12",
+    "title": "Overheating — safe first checks",
+    "symptom": "overheating",
+    "likely_components": [
+      "background app load",
+      "charger/cable",
+      "battery",
+      "ventilation or ambient conditions"
+    ],
+    "safe_diagnostic_steps": [
+      "Stop charging and close demanding apps; move the phone out of direct sun.",
+      "Remove a case temporarily and allow the device to cool naturally on a hard surface.",
+      "Check battery and app-usage screens after cooling; note whether heat recurs during idle use.",
+      "If swelling, odor, smoke, or severe heat is present, stop handling and seek qualified service."
+    ],
+    "tools": [
+      "timer",
+      "built-in battery/app usage screen"
+    ],
+    "difficulty": "advanced",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 100
+    },
+    "safety_notes": "Never puncture, bend, compress, or reflow a battery/device. Do not place it in a freezer or water. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "xiaomi-06",
+    "brand": "Xiaomi",
+    "model": "POCO F6",
+    "title": "Battery Drain — safe first checks",
+    "symptom": "battery drain",
+    "likely_components": [
+      "battery condition",
+      "background apps",
+      "screen settings",
+      "network signal conditions"
+    ],
+    "safe_diagnostic_steps": [
+      "Compare screen-on and idle drain using the built-in battery usage page.",
+      "Restart, install stable official updates, and review recently added apps.",
+      "Check signal strength and disable unused radios temporarily to see if drain changes.",
+      "Use built-in battery health information where available; never puncture or open the battery."
+    ],
+    "tools": [
+      "built-in battery usage screen",
+      "timer"
+    ],
+    "difficulty": "beginner",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 110
+    },
+    "safety_notes": "Never puncture, bend, or heat a lithium-ion battery; seek qualified service for swelling or damage. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  }
+]

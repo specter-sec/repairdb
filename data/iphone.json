@@ -1,0 +1,192 @@
+[
+  {
+    "id": "iphone-01",
+    "brand": "iPhone",
+    "model": "iPhone 15",
+    "title": "No Charging — safe first checks",
+    "symptom": "no charging",
+    "likely_components": [
+      "USB-C port or cable",
+      "charging adapter",
+      "battery",
+      "charging sub-board"
+    ],
+    "safe_diagnostic_steps": [
+      "Inspect the cable and adapter for visible damage; stop using damaged accessories.",
+      "Try a known-good, standards-compliant cable and adapter with a different outlet.",
+      "With power disconnected, check the port visually under good light; do not insert metal tools.",
+      "Restart the phone and observe whether a charging indicator appears."
+    ],
+    "tools": [
+      "known-good certified charger",
+      "USB power meter (optional)",
+      "bright flashlight"
+    ],
+    "difficulty": "beginner",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 45
+    },
+    "safety_notes": "Unplug before inspection. Do not scrape contacts, use liquids, or charge a wet, swollen, or hot phone. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "iphone-02",
+    "brand": "iPhone",
+    "model": "iPhone 14",
+    "title": "No Charging — safe first checks",
+    "symptom": "no charging",
+    "likely_components": [
+      "Lightning port or cable",
+      "charging adapter",
+      "battery",
+      "charging sub-board"
+    ],
+    "safe_diagnostic_steps": [
+      "Inspect the cable and adapter for visible damage; stop using damaged accessories.",
+      "Try a known-good, standards-compliant cable and adapter with a different outlet.",
+      "With power disconnected, check the port visually under good light; do not insert metal tools.",
+      "Restart the phone and observe whether a charging indicator appears."
+    ],
+    "tools": [
+      "known-good certified charger",
+      "USB power meter (optional)",
+      "bright flashlight"
+    ],
+    "difficulty": "beginner",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 45
+    },
+    "safety_notes": "Unplug before inspection. Do not scrape contacts, use liquids, or charge a wet, swollen, or hot phone. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "iphone-03",
+    "brand": "iPhone",
+    "model": "iPhone 15 Plus",
+    "title": "No Display — safe first checks",
+    "symptom": "no display",
+    "likely_components": [
+      "OLED display assembly",
+      "display connector",
+      "software display settings"
+    ],
+    "safe_diagnostic_steps": [
+      "Charge with a known-good accessory for 30 minutes, then try a normal restart.",
+      "Check brightness, accessibility, and display settings if the device responds to touch or audio.",
+      "Call the phone or connect it to a trusted computer to distinguish a display symptom from a full power failure.",
+      "Look for cracks, liquid exposure, or swelling without pressing on the screen."
+    ],
+    "tools": [
+      "known-good charger",
+      "trusted computer (optional)",
+      "flashlight"
+    ],
+    "difficulty": "intermediate",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 180
+    },
+    "safety_notes": "Do not press on cracked glass or open the device. Suspected liquid damage needs professional assessment. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "iphone-04",
+    "brand": "iPhone",
+    "model": "iPhone 15 Pro",
+    "title": "Network Issue — safe first checks",
+    "symptom": "network issue",
+    "likely_components": [
+      "SIM card",
+      "SIM tray",
+      "antenna path",
+      "carrier or network settings"
+    ],
+    "safe_diagnostic_steps": [
+      "Check for a carrier outage and confirm the account has service.",
+      "Toggle airplane mode once, then restart the device.",
+      "Reseat the SIM only with the device powered off and use the correct eject tool gently.",
+      "Test the SIM in another compatible phone, or another known-good SIM in this phone."
+    ],
+    "tools": [
+      "known-good compatible SIM",
+      "SIM eject tool",
+      "carrier coverage map"
+    ],
+    "difficulty": "intermediate",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 35
+    },
+    "safety_notes": "Do not bypass carrier locks, alter IMEI/baseband data, or install unofficial radio firmware. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "iphone-05",
+    "brand": "iPhone",
+    "model": "iPhone 15 Pro Max",
+    "title": "Boot Loop — safe first checks",
+    "symptom": "boot loop",
+    "likely_components": [
+      "software update state",
+      "storage",
+      "battery",
+      "power button"
+    ],
+    "safe_diagnostic_steps": [
+      "Disconnect accessories and use the documented normal restart for the device family.",
+      "Charge using a known-good accessory and allow a short cooling period if warm.",
+      "If available, use the manufacturer's documented recovery/update process without unlocking or wiping first.",
+      "Back up data if the device becomes stable; seek service before factory reset if data matters."
+    ],
+    "tools": [
+      "known-good charger",
+      "manufacturer support page",
+      "USB cable (optional)"
+    ],
+    "difficulty": "beginner",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 120
+    },
+    "safety_notes": "Avoid bootloader unlocks, factory resets, and unofficial firmware when preserving data is important. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  },
+  {
+    "id": "iphone-06",
+    "brand": "iPhone",
+    "model": "iPhone 13 mini",
+    "title": "No Sound — safe first checks",
+    "symptom": "no sound",
+    "likely_components": [
+      "speaker grille",
+      "speaker module",
+      "audio settings",
+      "Bluetooth route"
+    ],
+    "safe_diagnostic_steps": [
+      "Check ringer, media volume, mute, Do Not Disturb, and the selected audio output.",
+      "Disconnect Bluetooth devices and test with a locally stored audio clip.",
+      "Inspect speaker openings for loose debris; use a soft dry brush only, with no liquid or sharp tools.",
+      "Restart and retest a call and media playback separately."
+    ],
+    "tools": [
+      "soft dry brush",
+      "known-good wired/Bluetooth audio output"
+    ],
+    "difficulty": "advanced",
+    "estimated_cost_usd_parts_only": {
+      "min": 0,
+      "max": 90
+    },
+    "safety_notes": "Do not insert pins or liquid into openings; stop if the device has signs of liquid damage. Do not puncture lithium cells, attempt board-level reflow, or bypass carrier/baseband protections.",
+    "educational_example": true,
+    "disclaimer": "Illustrative training example only; not a verified issue for this brand or model."
+  }
+]
